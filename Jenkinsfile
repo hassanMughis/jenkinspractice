@@ -2,7 +2,7 @@
 pipeline {
   agent any
     environment {
-      DOCKER_IMAGE = 'YOUR-USERNAME/jenkinspractice'
+      DOCKER_IMAGE = 'mughishassan/jenkinspractice'
       IMAGE_TAG = "${BUILD_NUMBER}"
   }
   stages {
